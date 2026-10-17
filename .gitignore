@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+
+# Data (too large for GitHub; download from Kaggle)
+data/raw/
+
+# Large generated artifacts (re-created by running the notebooks)
+artifacts/*.npy
+artifacts/*.pkl
+
+# Keep small results so the README / reviewers can see them
+!artifacts/*.json
+!artifacts/*.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

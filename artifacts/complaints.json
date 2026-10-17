@@ -1,0 +1,502 @@
+{
+  "complaint_themes": [
+    {
+      "id": 0,
+      "label": "Sweets disappointments (chocolate, cookies, candy)",
+      "keywords": [
+        "chocolate",
+        "cookies",
+        "bars",
+        "candy",
+        "cookie",
+        "sugar",
+        "bar",
+        "sweet",
+        "box",
+        "cocoa"
+      ],
+      "n": 689,
+      "growth": -0.087
+    },
+    {
+      "id": 1,
+      "label": "Didn't work / waste of money (non-food)",
+      "keywords": [
+        "hair",
+        "money",
+        "work",
+        "did",
+        "bottle",
+        "plant",
+        "does",
+        "disappointed",
+        "item",
+        "using"
+      ],
+      "n": 490,
+      "growth": -0.008
+    },
+    {
+      "id": 2,
+      "label": "Order problems: wrong, missing or damaged items",
+      "keywords": [
+        "box",
+        "order",
+        "ordered",
+        "received",
+        "cans",
+        "item",
+        "shipping",
+        "bag",
+        "packaging",
+        "disappointed"
+      ],
+      "n": 714,
+      "growth": 0.063
+    },
+    {
+      "id": 3,
+      "label": "Pet food quality & ingredients",
+      "keywords": [
+        "food",
+        "cat",
+        "cats",
+        "dog",
+        "eat",
+        "chicken",
+        "dogs",
+        "ingredients",
+        "vet",
+        "pet"
+      ],
+      "n": 281,
+      "growth": 0.237
+    },
+    {
+      "id": 4,
+      "label": "Ingredient & health-claim concerns",
+      "keywords": [
+        "sugar",
+        "ingredients",
+        "free",
+        "organic",
+        "oil",
+        "food",
+        "natural",
+        "gluten",
+        "corn",
+        "syrup"
+      ],
+      "n": 640,
+      "growth": 0.003
+    },
+    {
+      "id": 5,
+      "label": "Tea disappointments",
+      "keywords": [
+        "tea",
+        "green",
+        "teas",
+        "box",
+        "drink",
+        "bags",
+        "water",
+        "bag",
+        "chai",
+        "weak"
+      ],
+      "n": 399,
+      "growth": -0.144
+    },
+    {
+      "id": 6,
+      "label": "Overpriced vs. store / size",
+      "keywords": [
+        "price",
+        "box",
+        "pack",
+        "store",
+        "shipping",
+        "oz",
+        "cost",
+        "expensive",
+        "bag",
+        "pay"
+      ],
+      "n": 427,
+      "growth": 0.163
+    },
+    {
+      "id": 7,
+      "label": "Stale or hard snacks (chips, nuts)",
+      "keywords": [
+        "stale",
+        "eat",
+        "bag",
+        "chips",
+        "bad",
+        "hard",
+        "box",
+        "nuts",
+        "salt",
+        "tasted"
+      ],
+      "n": 807,
+      "growth": -0.029
+    },
+    {
+      "id": 8,
+      "label": "Savory meals: sauces, soups, pasta",
+      "keywords": [
+        "sauce",
+        "soup",
+        "cheese",
+        "noodles",
+        "food",
+        "chicken",
+        "pasta",
+        "salt",
+        "eat",
+        "tuna"
+      ],
+      "n": 796,
+      "growth": -0.178
+    },
+    {
+      "id": 9,
+      "label": "Coffee & K-cup problems (bitter, pods)",
+      "keywords": [
+        "coffee",
+        "cup",
+        "cups",
+        "roast",
+        "beans",
+        "keurig",
+        "pods",
+        "bitter",
+        "weak",
+        "starbucks"
+      ],
+      "n": 729,
+      "growth": 0.375
+    },
+    {
+      "id": 10,
+      "label": "Dog treats: China sourcing & safety",
+      "keywords": [
+        "dog",
+        "dogs",
+        "treats",
+        "toy",
+        "china",
+        "treat",
+        "food",
+        "chicken",
+        "bone",
+        "bag"
+      ],
+      "n": 351,
+      "growth": 0.267
+    },
+    {
+      "id": 11,
+      "label": "Drinks: bad taste or too sweet",
+      "keywords": [
+        "water",
+        "drink",
+        "sugar",
+        "bad",
+        "sweet",
+        "juice",
+        "did",
+        "tasted",
+        "coconut",
+        "bitter"
+      ],
+      "n": 924,
+      "growth": -0.129
+    }
+  ],
+  "drivers": [
+    {
+      "driver": "Taste & flavor",
+      "n_reviews": 3013,
+      "pct_of_complaints": 0.416,
+      "growth": -0.031,
+      "trend": {
+        "2006": 0.41333333333333333,
+        "2007": 0.385,
+        "2008": 0.419672131147541,
+        "2009": 0.44521739130434784,
+        "2010": 0.4143968871595331,
+        "2011": 0.4033575317604356,
+        "2012": 0.4229957805907173
+      },
+      "quotes": [
+        "Horrible flavor, horrible taste.",
+        "The flavor is bland.",
+        "It tasted so bland."
+      ]
+    },
+    {
+      "driver": "Freshness & expiry",
+      "n_reviews": 410,
+      "pct_of_complaints": 0.057,
+      "growth": 0.024,
+      "trend": {
+        "2006": 0.04,
+        "2007": 0.04,
+        "2008": 0.05901639344262295,
+        "2009": 0.06260869565217392,
+        "2010": 0.048638132295719845,
+        "2011": 0.055807622504537205,
+        "2012": 0.06047819971870605
+      },
+      "quotes": [
+        "The product was stale, 8 months old.",
+        "Tasted stale.",
+        "The product arrived on time but was stale."
+      ]
+    },
+    {
+      "driver": "Packaging & shipping damage",
+      "n_reviews": 490,
+      "pct_of_complaints": 0.068,
+      "growth": -0.002,
+      "trend": {
+        "2006": 0.08,
+        "2007": 0.04,
+        "2008": 0.06229508196721312,
+        "2009": 0.06260869565217392,
+        "2010": 0.07684824902723736,
+        "2011": 0.06352087114337568,
+        "2012": 0.07067510548523206
+      },
+      "quotes": [
+        "I think it melted during shipping.",
+        "However, the packaging was crumbled and dented.",
+        "It came nicely packaged with inflated \"balloons\" protecting the cans yet they were all smashed in, terribly dented."
+      ]
+    },
+    {
+      "driver": "Price & value",
+      "n_reviews": 738,
+      "pct_of_complaints": 0.102,
+      "growth": 0.151,
+      "trend": {
+        "2006": 0.05333333333333334,
+        "2007": 0.08,
+        "2008": 0.07868852459016394,
+        "2009": 0.08695652173913043,
+        "2010": 0.10992217898832685,
+        "2011": 0.10980036297640654,
+        "2012": 0.10161744022503516
+      },
+      "quotes": [
+        "PRICE TOO EXPENSIVE.!",
+        "This item is way over priced.",
+        "this is way too expensive."
+      ]
+    },
+    {
+      "driver": "Quantity & size",
+      "n_reviews": 159,
+      "pct_of_complaints": 0.022,
+      "growth": 0.832,
+      "trend": {
+        "2006": 0.02666666666666667,
+        "2007": 0.03,
+        "2008": 0.013114754098360656,
+        "2009": 0.017391304347826087,
+        "2010": 0.010700389105058366,
+        "2011": 0.02676950998185118,
+        "2012": 0.023558368495077357
+      },
+      "quotes": [
+        "The package is tiny.",
+        "Very poor packaging.",
+        "Much smaller than expected."
+      ]
+    },
+    {
+      "driver": "Ingredients & health",
+      "n_reviews": 1004,
+      "pct_of_complaints": 0.139,
+      "growth": -0.048,
+      "trend": {
+        "2006": 0.04,
+        "2007": 0.14,
+        "2008": 0.15081967213114755,
+        "2009": 0.13043478260869565,
+        "2010": 0.15272373540856032,
+        "2011": 0.14019963702359348,
+        "2012": 0.13537271448663854
+      },
+      "quotes": [
+        "high fructose corn syrup and sugar.",
+        "Has high fructose corn syrup aka sugar and quite a bit.",
+        "but the ingredients list 'high fructose corn syrup'."
+      ]
+    },
+    {
+      "driver": "Made in China / safety",
+      "n_reviews": 97,
+      "pct_of_complaints": 0.013,
+      "growth": 0.075,
+      "trend": {
+        "2006": 0.0,
+        "2007": 0.0,
+        "2008": 0.013114754098360656,
+        "2009": 0.010434782608695653,
+        "2010": 0.01556420233463035,
+        "2011": 0.013611615245009074,
+        "2012": 0.014416315049226441
+      },
+      "quotes": [
+        "This is a product made in CHINA.",
+        "Product of China!",
+        "when I looked at the ingredients it said product from china."
+      ]
+    },
+    {
+      "driver": "Got sick / allergic reaction",
+      "n_reviews": 174,
+      "pct_of_complaints": 0.024,
+      "growth": 0.163,
+      "trend": {
+        "2006": 0.02666666666666667,
+        "2007": 0.02,
+        "2008": 0.01639344262295082,
+        "2009": 0.02608695652173913,
+        "2010": 0.021400778210116732,
+        "2011": 0.023139745916515426,
+        "2012": 0.026371308016877638
+      },
+      "quotes": [
+        "It gave me an upset stomach.",
+        "It made me want to vomit.",
+        "However, it gave me stomach aches and digestive problems."
+      ]
+    },
+    {
+      "driver": "Pet got sick / refused",
+      "n_reviews": 430,
+      "pct_of_complaints": 0.059,
+      "growth": 0.239,
+      "trend": {
+        "2006": 0.10666666666666667,
+        "2007": 0.045,
+        "2008": 0.03934426229508197,
+        "2009": 0.05391304347826087,
+        "2010": 0.05544747081712062,
+        "2011": 0.05852994555353902,
+        "2012": 0.06434599156118144
+      },
+      "quotes": [
+        "My cat ate it once, because it was new, but won't touch it now.",
+        "My dog ate one and vomited.",
+        "My cat who did eat it has thrown up every single time from it."
+      ]
+    },
+    {
+      "driver": "Recipe / formula changed",
+      "n_reviews": 325,
+      "pct_of_complaints": 0.045,
+      "growth": -0.033,
+      "trend": {
+        "2006": 0.09333333333333334,
+        "2007": 0.045,
+        "2008": 0.05573770491803279,
+        "2009": 0.04869565217391304,
+        "2010": 0.03599221789883268,
+        "2011": 0.04764065335753176,
+        "2012": 0.04289732770745429
+      },
+      "quotes": [
+        "I don't know what they changed in the recipe, it now tastes horrible!",
+        "What has changed about the recipe, and can we expect it to return to its original formula in the future?",
+        "The new recipe is horrible!"
+      ]
+    },
+    {
+      "driver": "Not as described",
+      "n_reviews": 88,
+      "pct_of_complaints": 0.012,
+      "growth": 2.155,
+      "trend": {
+        "2006": 0.013333333333333334,
+        "2007": 0.025,
+        "2008": 0.0,
+        "2009": 0.0034782608695652175,
+        "2010": 0.009727626459143969,
+        "2011": 0.014065335753176044,
+        "2012": 0.013713080168776372
+      },
+      "quotes": [
+        "I did not receive the same product as pictured.",
+        "This item was not as pictured.",
+        "Misrepresented item on description."
+      ]
+    },
+    {
+      "driver": "Seller & delivery service",
+      "n_reviews": 520,
+      "pct_of_complaints": 0.072,
+      "growth": -0.039,
+      "trend": {
+        "2006": 0.10666666666666667,
+        "2007": 0.09,
+        "2008": 0.06557377049180328,
+        "2009": 0.059130434782608696,
+        "2010": 0.09046692607003891,
+        "2011": 0.07168784029038112,
+        "2012": 0.06610407876230662
+      },
+      "quotes": [
+        "It took them eight days to respond to my order and ship it, so that is a little slower than some merchants I've done business with through Amazon.",
+        "Took 3 days to ship.",
+        "Contacted Amazon and they shipped another order."
+      ]
+    },
+    {
+      "driver": "Texture & consistency",
+      "n_reviews": 245,
+      "pct_of_complaints": 0.034,
+      "growth": 0.321,
+      "trend": {
+        "2006": 0.05333333333333334,
+        "2007": 0.045,
+        "2008": 0.022950819672131147,
+        "2009": 0.02782608695652174,
+        "2010": 0.030155642023346304,
+        "2011": 0.03856624319419238,
+        "2012": 0.03270042194092827
+      },
+      "quotes": [
+        "Chalky texture and taste.",
+        "They're too hard and chewy with a weird texture.",
+        "The texture is more grainy than crunchy."
+      ]
+    },
+    {
+      "driver": "Coffee pods / brewing",
+      "n_reviews": 597,
+      "pct_of_complaints": 0.082,
+      "growth": 0.379,
+      "trend": {
+        "2006": 0.08,
+        "2007": 0.085,
+        "2008": 0.05573770491803279,
+        "2009": 0.057391304347826085,
+        "2010": 0.07684824902723736,
+        "2011": 0.09029038112522686,
+        "2012": 0.08438818565400844
+      },
+      "quotes": [
+        "Over half of the k cups have exploded in our Keurig.",
+        "I have Coffee People K Cups and they do not do this.",
+        "I must've gotten an older batch of the k-cups because they apparently explode in the keurig machine if the top of the k-cup is flat instead of bubbled."
+      ]
+    }
+  ]
+}

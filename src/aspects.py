@@ -1,0 +1,35 @@
+"""Complaint-driver definitions for zero-shot classification."""
+
+ASPECTS = {
+    "Taste & flavor": ["it tastes terrible", "the flavor is bland and artificial", "bitter aftertaste",
+                       "too sweet", "the flavor was disappointing"],
+    "Freshness & expiry": ["the product was stale", "it arrived expired", "past the expiration date",
+                           "tasted old and rancid", "it was moldy"],
+    "Packaging & shipping damage": ["the box arrived crushed", "the package was damaged in shipping",
+                                    "the bag was torn open and leaking", "cans arrived dented",
+                                    "it melted during shipping"],
+    "Price & value": ["way too expensive", "overpriced for what you get",
+                      "much cheaper at the grocery store", "not worth the money"],
+    "Quantity & size": ["the package is much smaller than expected", "very few pieces in the bag",
+                        "less product than advertised"],
+    "Ingredients & health": ["contains too much sugar", "full of artificial ingredients",
+                             "high fructose corn syrup", "the ingredients are unhealthy"],
+    "Made in China / safety": ["made in china", "ingredients sourced from china",
+                               "I worry about safety", "contaminated product"],
+    "Got sick / allergic reaction": ["it made me sick", "I got a stomach ache", "gave me diarrhea",
+                                     "I had an allergic reaction"],
+    "Pet got sick / refused": ["my dog got sick after eating it", "my cat vomited",
+                               "the dog would not eat it", "my cat refuses to touch it"],
+    "Recipe / formula changed": ["they changed the recipe", "the new formula is worse",
+                                 "it does not taste like it used to"],
+    "Not as described": ["not what was pictured", "the description is misleading",
+                         "received a different product", "wrong flavor was sent"],
+    "Seller & delivery service": ["shipping took forever", "the seller never responded",
+                                  "customer service was unhelpful", "order never arrived"],
+    "Texture & consistency": ["the texture is gritty", "too hard to chew", "soggy and mushy",
+                              "chalky texture"],
+    "Coffee pods / brewing": ["the k-cups leaked in my keurig", "the pods clog the machine",
+                              "coffee is weak and watery"],
+}
+
+THRESHOLD = 0.45

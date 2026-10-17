@@ -1,0 +1,15 @@
+driver,n_base,n_recent,share_base,share_recent,growth,p_value,significant
+Not as described,12,70,0.006,0.014,1.2,0.009,True
+Quantity & size,25,126,0.013,0.025,0.9,0.0025,True
+Coffee pods / brewing,129,439,0.068,0.087,0.29,0.0085,True
+Texture & consistency,54,178,0.028,0.035,0.25,0.1492,False
+Pet got sick / refused,100,312,0.052,0.062,0.18,0.1386,False
+Got sick / allergic reaction,42,126,0.022,0.025,0.13,0.4749,False
+Freshness & expiry,104,295,0.055,0.058,0.07,0.5292,False
+Price & value,187,531,0.098,0.105,0.07,0.3797,False
+Recipe / formula changed,82,227,0.043,0.045,0.05,0.7191,False
+Made in China / safety,26,71,0.014,0.014,0.03,0.8894,False
+Taste & flavor,810,2092,0.425,0.414,-0.02,0.4456,False
+Packaging & shipping damage,134,341,0.07,0.068,-0.04,0.6927,False
+Ingredients & health,278,694,0.146,0.137,-0.06,0.3775,False
+Seller & delivery service,147,346,0.077,0.069,-0.11,0.2176,False
